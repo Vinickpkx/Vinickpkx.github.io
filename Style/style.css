@@ -402,12 +402,13 @@ h2 {
     color: rgb(247, 148, 2);
 }
 #projectshowjava {
-    height: 728px;
+    height: 750px;
     margin-top: 140px; 
     background-color: black
 }
 #projectshowfront {
-    height: 728px;
+    height: 765px;
+    margin-top: 15px;
     background-color: black
 }
 #projectshowjava > .col-md-3 {
