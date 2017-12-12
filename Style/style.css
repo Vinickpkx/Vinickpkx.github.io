@@ -22,6 +22,9 @@ nav {
     width: 125px;
     height: 125px;
 }
+ul {
+    padding: 0px
+}
 nav > ul {
     list-style: none;
     height: 135px;
@@ -402,33 +405,35 @@ h2 {
     color: rgb(247, 148, 2);
 }
 #projectshowjava {
-    height: 750px;
-    margin-top: 140px; 
-    background-color: black
+    height: 765px;
+    background-color: black;
+    margin: 140px auto 0px;
 }
 #projectshowfront {
     height: 765px;
-    margin-top: 15px;
-    background-color: black
+    background-color: black;
+    margin: 15px auto 0px;
 }
-#projectshowjava > .col-md-3 {
+.menuJava {
     margin-top: 10px; 
-    background-color:  rgb(32, 32, 32);
+    background-color:rgb(32, 32, 32);
     height:710px;
     float: left;
+    width: 300px;
 }
-#projectshowfront > .col-md-3 {
+.menuFront {
     margin-top: 10px; 
-    background-color:  rgb(32, 32, 32);
+    background-color:rgb(32, 32, 32);
     height:710px;
     float: left;
+    width: 300px;
 }
 .projectselectscroll {
     width: 100%;
     height: 70px;
     margin: 8px 0px;
 }
-#projectshowjava > div >  ul {
+#projectshowjava> div > div >  ul {
     padding: 0px;
     margin: 0px;
     float: left; 
@@ -438,7 +443,7 @@ h2 {
     color: white;
     text-align: center;
 }
-#projectshowfront > div >  ul {
+#projectshowfront> div > div >  ul {
     padding: 0px;
     margin: 0px;
     float: left; 
@@ -518,5 +523,45 @@ h1{
     width: 800px;
     height: 360px;
     float: left;
-    margin-left: 15px;
+}
+.chatango {
+    float: left;
+    margin: 10px;
+    size: 100%;
+}
+.showprogramfront1{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px
+} 
+.showchatfront1{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+.frontEnd {
+    width: 1430px;
+    height: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+.showprogramjava1{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px
+} 
+.showchatjava1{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+.javaScript {
+    width: 1430px;
+    height: 100%;
+    padding: 0px;
+    margin: 0 auto;
 }
