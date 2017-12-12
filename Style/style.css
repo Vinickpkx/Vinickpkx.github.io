@@ -1,0 +1,501 @@
+nav {
+    height: 135px;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    min-width: 1360px;
+    background-color: rgb(12, 8, 6);
+    z-index: 3;
+}
+.navspan {
+    width: 175px;
+    height: 175px;
+    display: block;
+    float: left;
+    background-color: rgb(12, 8, 6);
+    margin-left: 150px;
+    position: relative;
+}
+.navimg {
+    margin-left: 25px;
+    margin-top: 25px;
+    width: 125px;
+    height: 125px;
+}
+nav > ul {
+    list-style: none;
+    height: 135px;
+    width: 840px;
+    padding: 0px;
+    margin: 0px;
+    float: left;
+}
+.liNav {
+    float: left;
+    margin: 0px 30px;
+    width: 150px;
+    height: 100%;
+    padding: 25px 0px;
+}
+a > .pb {
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+.liNav:hover .pb {
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    margin-top: 10px;
+}
+a > .ps {
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    text-align: center;
+}
+.liNav:hover .ps {
+    display: none;
+}
+ul {
+    list-style: none;
+}
+span > p {
+    margin: 0px;
+    color: white;
+}
+#contatbox {
+    display: block;
+    float: right;
+    width:200px;
+    margin: 37px 0px;
+}
+#header{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 138px;
+    min-width: 1360px;
+  }
+#contatheader {
+    width: 100%;
+    height: 727px;
+    background-size: cover;
+    max-height: 100%;
+    max-width: 100%;
+    margin-top: 138px;
+    min-width: 1440px;
+  }
+.contatimg{
+    width: 60px;
+    height: 60px;
+    float: left;
+}
+.perfil {
+    height: 580px;
+    width: 580px;
+    margin: 10px;
+    float: left;
+    z-index: 1;
+    background-color:rgba(0, 0, 0, 0.8);
+}
+.perfilimg {
+    width:250px;
+    height: 250px;
+    float: left;
+    margin-top: 60px;
+    margin-left: 40px;
+}
+.psideimg1{
+    width: 250px;
+    height: 80px;
+    margin: 40px 300px 0px ;
+    font-family: title;
+    color: rgb(247, 148, 2);
+    font-size: 50px;
+    text-align: center;
+    text-shadow: rgb(160, 160, 160) 0 0 1.0em 
+}
+.psideimg2{
+    width: 200px;
+    height: 190px;
+    margin: 30px 320px 0px ;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.pbottonimg{
+    width: 480px;
+    height: 120px;
+    margin-left: 40px;
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+
+}
+.curriculumaddon > div {
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin:0px 5px 10px;
+}
+.curriculumaddon > div > img {
+    width: 50px;
+    height: 50px;
+}
+.curriculumaddon {
+    width: 242px;
+    margin: 20px auto;
+}
+#contatname {
+    font-weight: bold;
+}
+#flag:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#gear:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#circ:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#flag:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+#real:hover {
+    width: 70px;
+    height: 70px;
+    position: relative;
+    right: 10px;
+    bottom: 10px;
+}
+@font-face {
+    font-family: title;
+    src: url(../Fonts/title.ttf);
+}
+#ulcircle{
+    float: right;
+    width: 960px;
+    height: 140px;
+    margin: 50px 20px;
+    padding: 0px;
+}
+.circle {
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+#myCarousel {
+    height: 200px;
+    width: 780px;
+    margin: 0 auto;
+}
+.ulcarousel{
+    height: 200px;
+    width: 700px;
+    float: left;
+    padding: 0px;
+}
+#projetshow {
+    margin-top: 3px;
+    background-color: rgb(0, 0, 0);
+    height: 700px;
+    min-width: 1200px;
+}
+#insideprojetshow {
+    margin-top: 3px;
+    background-color: rgba(42, 42, 42, 0.609);
+    height: 700px;
+    width: 80%;
+    margin: 0 auto;
+}
+.d1 {
+    background-image: url(../Imgs/GitHubLogo.png);
+    background-size: 100%;
+}
+.d2 {
+    background-image: url(../Imgs/AdobePhotoshopLogo.png);
+    background-size: 100%;
+}
+.d3 {
+    background-image: url(../Imgs/VisualCodeLogo.png);
+    background-size: 100%;
+}
+.d4 {
+    background-image: url(../Imgs/PixarBayLogo.png);
+    background-size: 100%;
+}
+.d5 {
+    background-image: url(../Imgs/DevToolsLogo.png);
+    background-size: 100%;
+}
+.democircle {
+    width: 140px;
+    height: 140px;
+    float: left;
+    margin: 10px;
+}
+.democircle:hover {
+cursor: pointer;
+}
+.header_C1 {
+    background-image: url(../Imgs/mockup_012.png);
+}
+.header_C2 {
+    background-color:  #FFBB00;
+}
+.header_C3 {
+    background-color: #88FF00;
+}
+.header_C4 {
+    background-color: #00FFFF;
+}
+.header_C5 {
+    background-color: #8400FF;
+}
+.header_C6 {
+    background-color: #FF0080;
+}
+.cActive {
+    width: 160px;
+    height: 160px;
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+.carousel-sm-r {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    right: 30px;
+    opacity: 0.7;
+    z-index: 1;
+    float: left;
+}
+.carousel-sm2-r {
+    width:100px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    right: 50px;
+    opacity: 0.35;
+    z-index: 0;
+    float: left;
+}
+.carousel-sm-l {
+    width: 150px;
+    height: 150px;
+    position: relative;
+    top: 25px;
+    left: 30px;
+    opacity: 0.7;
+    z-index: 1;
+    float: left;
+}
+.carousel-sm2-l {
+    width: 100px;
+    height:100px;
+    position: relative;
+    top: 50px;
+    left: 50px;
+    opacity: 0.35;
+    z-index: 0;
+    float: left;
+}
+.carousel-bg {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    z-index: 2;
+    float: left;
+}
+#programDescription {
+    width: 800px;
+    height: 200px;
+    margin: 20px auto;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+.bt-carousel {
+    width: 40px;
+    height: 40px;
+    margin-top: 80px;
+    padding: 0px;
+    background-color: rgb(26, 26, 26);
+    border: none;
+}
+@media screen and (max-width:1610px) and (min-width:600px) {
+    .democircle {
+        width: 100px;
+        height: 100px;
+        float: left;
+        margin: 10px;
+    }
+    #ulcircle{
+        float: right;
+        width: 720px;
+        height: 300px;
+        margin: 50px 20px;
+        padding: 0px;
+    }
+    .circle {
+        width: 100px;
+        height: 100px;
+        float: left;
+    }
+    .cActive {
+        width: 120px;
+        height: 120px;
+        margin: 0px;
+        position: relative;
+        bottom: 10px;
+        right: 10px;
+    }
+    .navspan {
+        margin-left: 20px;
+    }
+}
+h1 {
+    margin: 0px;
+    color: rgb(247, 148, 2);
+    font-size: 75px; 
+    text-align: center;
+    font-family: title;
+}
+h2 {
+    margin: 0px;
+    color: rgb(255, 255, 255);
+    font-size: 50px; 
+    text-align: center;
+}
+.dropdown-menu {
+    float: right;
+    position: relative;
+    top: 30px;
+    left: -5px;
+    z-index: 0;
+    margin: 0px;
+    display: block;
+    background-color: rgb(247, 148, 2);
+}
+#linkcenter{
+    background-color: rgb(53, 53, 53);
+
+}
+#linkcenter > a {
+    color: rgb(247, 148, 2);
+}
+#projectshowjava {
+    height: 728px;
+    margin-top: 140px; 
+    background-color: black
+}
+#projectshowjava > .col-md-3 {
+    margin-top: 10px; 
+    background-color:  rgb(32, 32, 32);
+    height:710px;
+    float: left;
+}
+.projectselectscroll {
+    width: 100%;
+    height: 70px;
+    margin: 8px 0px;
+}
+#projectshowjava > div >  ul {
+    padding: 0px;
+    margin: 0px;
+    float: left; 
+    height: 710px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.centerheight {
+    padding: 14px;
+}
+.projectselectscroll > img {
+    width: 90px;
+    height: 70px;
+    float: left;
+}
+.btn-warning {
+    background-color: #f79402;
+    border-color: #000000;
+}
+.ulHeader{
+    border-style: solid;
+    border-color: gray
+}
+.start{
+    background-color: #f79402;
+}
+.liActive{
+    color: black;
+    background-color: #f79402;
+    text-decoration-color: rgb(0, 0, 0);
+}
+.liActive:hover a > .pb{
+    color: black
+}
+.liActive > a > .pb{
+    color: black;
+    text-shadow:rgb(255, 255, 255) 0 0 1.5em;
+}
+.liActive > a > .ps{
+    color: black;
+    text-shadow:rgb(255, 255, 255) 0 0 1.5em;
+}
+@media screen and (max-width:1365px) and (min-width:0px) {
+h1{
+    font-size: 50px
+}
+#myCarousel{
+    float: left;
+    margin-left: 5px;
+}
+.dropdown-menu{
+    left: 0px;
+}
+#programDescription{
+    text-align: left;
+    width: 715px;
+    margin-top: 235px;
+}
+#programDescription > h2 {
+    text-align: left;
+}
+}
+@media screen and (max-width:1550px) and (min-width:0px) {
+    h1{
+        font-size: 60px
+    }
+}
+@media screen and (max-width:1360px) and (min-width:0px) {
+    h1{
+        font-size: 60px
+    }
+}
+.projectDescription {
+    background-color: gray;
+    width: 800px;
+    height: 360px;
+    float: left;
+    margin-left: 15px;
+}
