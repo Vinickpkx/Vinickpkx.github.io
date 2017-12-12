@@ -406,7 +406,17 @@ h2 {
     margin-top: 140px; 
     background-color: black
 }
+#projectshowfront {
+    height: 728px;
+    background-color: black
+}
 #projectshowjava > .col-md-3 {
+    margin-top: 10px; 
+    background-color:  rgb(32, 32, 32);
+    height:710px;
+    float: left;
+}
+#projectshowfront > .col-md-3 {
     margin-top: 10px; 
     background-color:  rgb(32, 32, 32);
     height:710px;
@@ -418,6 +428,16 @@ h2 {
     margin: 8px 0px;
 }
 #projectshowjava > div >  ul {
+    padding: 0px;
+    margin: 0px;
+    float: left; 
+    height: 710px;
+    width: 100%;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+#projectshowfront > div >  ul {
     padding: 0px;
     margin: 0px;
     float: left; 
