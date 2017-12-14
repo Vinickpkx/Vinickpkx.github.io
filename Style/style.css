@@ -213,13 +213,13 @@ span > p {
     padding: 0px;
 }
 #projetshow {
-    margin-top: 3px;
+    margin-top: 10px;
     background-color: rgb(0, 0, 0);
     height: 700px;
     min-width: 1200px;
 }
 #projetshowBI {
-    margin-top: 3px;
+    margin-top: 10px;
     background-color: rgb(0, 0, 0);
     height: 800px;
     min-width: 1200px;
@@ -420,12 +420,12 @@ h2 {
 #projectshowjava {
     height: 765px;
     background-color: black;
-    margin: 140px auto 0px;
+    margin: 138px auto 0px;
 }
 #projectshowfront {
     height: 765px;
     background-color: black;
-    margin: 15px auto 0px;
+    margin: 10px auto 0px;
 }
 .menuJava {
     margin-top: 10px; 
@@ -470,9 +470,10 @@ h2 {
     padding: 14px;
 }
 .projectselectscroll > img {
-    width: 90px;
+    width: 80px;
     height: 70px;
     float: left;
+    margin-left: 10px; 
 }
 .btn-warning {
     background-color: #f79402;
@@ -488,6 +489,11 @@ h2 {
 .liActive{
     color: black;
     background-color: #f79402;
+    text-decoration-color: rgb(0, 0, 0);
+}
+.liActivejf{
+    color: black;
+    background-color: #aaaaaa;
     text-decoration-color: rgb(0, 0, 0);
 }
 .liActive:hover a > .pb{
@@ -572,7 +578,300 @@ h1{
     padding: 0px;
     margin: 0px;
 }
+#java2:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava2{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatjava2{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#java3:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava3{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatjava3{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#java4:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava4{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatjava4{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#java5:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava5{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+}
+#java6:hover{
+    background-color: #aaaaaa;
+}
+.showchatjava5{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#java7:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava6{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+#java7:hover{
+    background-color: #aaaaaa;
+}
+.showchatjava6{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+.showprogramjava7{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+#java8:hover{
+    background-color: #aaaaaa;
+}
+.showchatjava7{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+.showprogramjava8{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatjava8{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#java9:hover{
+    background-color: #aaaaaa;
+}
+.showprogramjava9{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatjava9{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+.showprogramfront1{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+} 
+.showchatfront1{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+}
+#front2:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront2{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront2{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front3:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront3{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront3{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front4:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront4{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront4{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front5:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront5{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+}
+.showchatfront5{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front6:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront6{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront6{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front7:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront7{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront7{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front8:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront8{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront8{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
+#front9:hover{
+    background-color: #aaaaaa;
+}
+.showprogramfront9{
+    float: left;
+    padding: 0px;
+    width: 800px;
+    height: 100%;
+    margin: 10px 0px 0px 10px;
+    display: none;
+} 
+.showchatfront9{
+    float: left;
+    padding: 0px;
+    margin: 0px;
+    display: none;
+}
 .javaScript {
+    width: 1430px;
+    height: 100%;
+    padding: 0px;
+    margin: 0 auto;
+}
+.frontEnd {
     width: 1430px;
     height: 100%;
     padding: 0px;
@@ -582,7 +881,7 @@ h1{
     width: 150px;
     height: 150px;
     float: left;
-    margin: 0px 11px
+    margin: 0px 11px;
 }
 .btn-dark {
     width: 151px;
