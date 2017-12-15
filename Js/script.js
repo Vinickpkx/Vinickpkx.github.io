@@ -34,7 +34,6 @@ $(document).ready(function () {
         $("#header").addClass("header_C1");
         $("#header").removeClass("header_C2");
         $("#header").removeClass("header_C3");
-        $("#header").removeClass("header_C4");
         $("#header").removeClass("header_C5");
         $("#header").removeClass("header_C6");
         $(".cimg1").addClass("cActive");
@@ -49,7 +48,6 @@ $(document).ready(function () {
         $("#header").addClass("header_C2");
         $("#header").removeClass("header_C1");
         $("#header").removeClass("header_C3");
-        $("#header").removeClass("header_C4");
         $("#header").removeClass("header_C5");
         $("#header").removeClass("header_C6");
         $(".cimg2").addClass("cActive");
@@ -64,7 +62,6 @@ $(document).ready(function () {
         $("#header").addClass("header_C3");
         $("#header").removeClass("header_C2");
         $("#header").removeClass("header_C1");
-        $("#header").removeClass("header_C4");
         $("#header").removeClass("header_C5");
         $("#header").removeClass("header_C6");
         $(".cimg3").addClass("cActive");
@@ -75,26 +72,11 @@ $(document).ready(function () {
         $(".cimg6").removeClass("cActive");
     });
 
-    $(".c4").click(function () {
-        $("#header").addClass("header_C4");
-        $("#header").removeClass("header_C2");
-        $("#header").removeClass("header_C3");
-        $("#header").removeClass("header_C1");
-        $("#header").removeClass("header_C5");
-        $("#header").removeClass("header_C6");
-        $(".cimg4").addClass("cActive");
-        $(".cimg2").removeClass("cActive");
-        $(".cimg3").removeClass("cActive");
-        $(".cimg1").removeClass("cActive");
-        $(".cimg5").removeClass("cActive");
-        $(".cimg6").removeClass("cActive");
-    });
 
     $(".c5").click(function () {
         $("#header").addClass("header_C5");
         $("#header").removeClass("header_C2");
         $("#header").removeClass("header_C3");
-        $("#header").removeClass("header_C4");
         $("#header").removeClass("header_C1");
         $("#header").removeClass("header_C6");
         $(".cimg5").addClass("cActive");
@@ -109,7 +91,6 @@ $(document).ready(function () {
         $("#header").addClass("header_C6");
         $("#header").removeClass("header_C2");
         $("#header").removeClass("header_C3");
-        $("#header").removeClass("header_C4");
         $("#header").removeClass("header_C5");
         $("#header").removeClass("header_C1");
         $(".cimg6").addClass("cActive");

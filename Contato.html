@@ -12,11 +12,19 @@
 </head>
 
 <body style="background-color:rgb(247, 148, 2)">
-    <nav>
+    <nav class="fixed-top">
         <span class="navspan rounded-bottom">
-                <a href="index.html"><img src="Imgs/logosite2.png" class="navimg"></a>
+            <a href="index.html">
+                <img src="Imgs/logosite2.png" class="navimg">
+            </a>
         </span>
         <ul>
+            <li class="liNav liDeact">
+                <a href="index.html" style="text-decoration-color: rgb(247, 148, 2);">
+                    <p class="pb">HOME</p>
+                    <p class="ps">Página Inicial</p>
+                </a>
+            </li>
             <li class="liNav liDeact">
                 <a href="java.html" style="text-decoration-color: rgb(247, 148, 2);">
                     <p class="pb">PROJETOS</p>
@@ -24,7 +32,7 @@
                 </a>
             </li>
             <li class="liNav liDeact">
-                <a href="#" style="text-decoration-color: rgb(247, 148, 2);">
+                <a href="Curriculo.html" style="text-decoration-color: rgb(247, 148, 2);">
                     <p class="pb">SOBRE MIM</p>
                     <p class="ps">Curriculo e Apresentação</p>
                 </a>
@@ -43,18 +51,45 @@
             <p>&nbsp (00) 0000-0000</p>
         </span>
     </nav>
-    <header id="contatheader" class="header_C1">
-        <h1>Contato</h1>
+    <header id="contatheader">
+        <h1 id="contattilte">Contato</h1>
         <br>
         <br>
         <br>
         <center>
-        <img src="Imgs/twittericon.png" style="width:300px; height: 300px;">
-        <img src="Imgs/intagranicon.png"  style="width:300px; height: 300px;">
-        <img src="Imgs/GitHubicon.png"  style="width:300px; height: 300px;">
-        <img src="Imgs/faceicon.png"  style="width:300px; height: 300px;">
-        <img src="Imgs/googleicon.png"  style="width:300px; height: 300px;">
-    </center>
+            <ul id="contatul">
+                <li>
+                    <img src="Imgs/twittericon.png" class="contat">
+                    <a href="https://twitter.com/vinickpkx">
+                        <h3 class="h3contat">twitter.com/vinickpkx</h3>
+                    </a>
+                </li>
+                <li>
+                    <img src="Imgs/intagranicon.png" class="contat">
+                    <a href="https://twitter.com/vinickpkx">
+                        <h3 class="h3contat"></h3>
+                    </a>
+                </li>
+                <li>
+                    <img src="Imgs/GitHubicon.png" class="contat">
+                    <a href="https://github.com/Vinickpkx">
+                        <h3 class="h3contat">github.com/Vinickpkx</h3>
+                    </a>
+                </li>
+                <li>
+                    <img src="Imgs/faceicon.png" class="contat">
+                    <a href="https://www.facebook.com/vinicius.n.f.s">
+                        <h3 class="h3contat">www.facebook.com/vinicius.n.f.s</h3>
+                    </a>
+                </li>
+                <li>
+                    <img src="Imgs/googleicon.png" class="contat">
+                    <a href="https://plus.google.com/u/0/115028294622709163547">
+                        <h3 class="h3contat">Vinickpkx@gmail.com</h3>
+                    </a>
+                </li>
+            </ul>
+        </center>
     </header>
     <footer style="background-color:black; width:100%; height: 45px; margin-top:6px;margin-bottom:3px;"></footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
