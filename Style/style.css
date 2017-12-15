@@ -1049,3 +1049,8 @@ display: block;
     height: 300px;
     display: block;
 }
+footer > p {
+    font-size: 30px;
+    text-align: center;
+    margin: 0px
+}
