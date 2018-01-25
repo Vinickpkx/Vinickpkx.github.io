@@ -1039,10 +1039,8 @@ display: block;
     text-align: center;
 }
 .spambottom{
-    border-bottom-width: 2px;
-    border-bottom-style: solid;
-    border-bottom-color: #f79402;
-    margin-bottom: 20px;
+
+    margin-bottom: 50px;
 }
 .spantopimg {
     margin-top: 20px;
